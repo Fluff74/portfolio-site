@@ -1,0 +1,613 @@
+body {
+    background-color: #121010;
+    margin: 0;
+
+    a:link {
+        color: #007eed;
+    }
+    a:visited {
+        color: #294863;
+    }
+    a:hover {
+        color: #66b8ff;
+    }
+    a:active {
+        color: #4d7496;
+    }
+
+    li {
+        font-size: 14pt;
+        line-height: 25pt;
+    }
+
+    div {
+        overflow: hidden;
+    }
+
+    hr {
+        width: 85%;
+        border-color: #ebebeb;
+    }
+}
+
+#intro {
+    display: grid;
+    grid-template-areas: "Josh_Photo Josh_Intro";
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100%;
+}
+
+#Josh_Photo {
+    grid-area: Josh_Photo;
+
+    img {
+        width: 80%;
+        padding: 10%;
+    }
+}
+
+#Josh_Intro {
+    grid-area: Josh_Intro;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: yellow;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+}
+
+#RWHP_Project {
+    display: grid;
+    grid-template-areas: "RWHP_Images RWHP_Text";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#RWHP_Text {
+    grid-area: RWHP_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #c32bff;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+
+    hr {
+        width: 85%;
+        border-color: #ebebeb;
+    }
+}
+
+#RWHP_Images {
+    grid-area: RWHP_Images;
+
+    img {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+}
+
+#EV_Project {
+    display: grid;
+    grid-template-areas: "EV_Text EV_Images";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#EV_Text {
+    grid-area: EV_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #deba1d;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+
+    hr {
+        width: 85%;
+        border-color: #ebebeb;
+    }
+}
+
+#EV_Images {
+    grid-area: EV_Images;
+
+    img {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+}
+
+#SS_Project {
+    display: grid;
+    grid-template-areas: "SS_Images SS_Text";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#SS_Images {
+    grid-area: SS_Images;
+
+    img {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+}
+
+#SS_Text {
+    grid-area: SS_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #96d6e3;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+
+    hr {
+        width: 85%;
+        border-color: #ebebeb;
+    }
+}
+
+#AA_Project {
+    display: grid;
+    grid-template-areas: "AA_Text AA_Images";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#AA_Text {
+    grid-area: AA_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+
+    hr {
+        width: 85%;
+        border-color: #ebebeb;
+    }
+}
+
+#AA_Images {
+    grid-area: AA_Images;
+
+    img {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+}
+
+#GGK_Project {
+    display: grid;
+    grid-template-areas: "GGK_Images GGK_Text";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#GGK_Images {
+    grid-area: GGK_Images;
+
+    img {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+}
+
+#GGK_Text {
+    grid-area: GGK_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #ffbf0f;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+
+    hr {
+        width: 85%;
+        border-color: #ebebeb;
+    }
+}
+
+#FB_Project {
+    display: grid;
+    grid-template-areas: "FB_Text FB_Images";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#FB_Text {
+    grid-area: FB_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #55c5d4;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+
+    hr {
+        width: 85%;
+        border-color: #ebebeb;
+    }
+}
+
+#FB_Images {
+    grid-area: FB_Images;
+
+    img {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+}
+
+#FWF_Project {
+    display: grid;
+    grid-template-areas: "FWF_Images FWF_Text";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#FWF_Images {
+    grid-area: FWF_Images;
+
+    iframe {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+        border: none;
+    }
+}
+
+#FWF_Text {
+    grid-area: FWF_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #0900ad;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+
+    hr {
+        width: 85%;
+        border-color: #ebebeb;
+    }
+}
+
+#SUS_Project {
+    display: grid;
+    grid-template-areas: "SUS_Text SUS_Images";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#SUS_Text {
+    grid-area: SUS_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #c936ff;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+}
+
+#SUS_Images {
+    grid-area: SUS_Images;
+
+    iframe {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+        border: none;
+    }
+}
+
+#HG_Project {
+    display: grid;
+    grid-template-areas: "HG_Images HG_Text";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#HG_Images {
+    grid-area: HG_Images;
+
+    img {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+}
+
+#HG_Text {
+    grid-area: HG_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #a18d1b;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+}
+
+#J_Project {
+    display: grid;
+    grid-template-areas: "J_Text J_Images";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#J_Images {
+    grid-area: J_Images;
+
+    img {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+}
+
+#J_Text {
+    grid-area: J_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #e61515;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+
+    hr {
+        width: 85%;
+        border-color: #ebebeb;
+    }
+}
+
+#C_Project {
+    display: grid;
+    grid-template-areas: "C_Images C_Text";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#C_Text {
+    grid-area: C_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #ff85f3;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+}
+
+#C_Images {
+    grid-area: C_Images;
+
+    iframe {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+        border: none;
+    }
+}
+
+#RG_Project {
+    display: grid;
+    grid-template-areas: "RG_Text RG_Images";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+#RG_Text {
+    grid-area: RG_Text;
+    color: #ebebeb;
+    justify-items: center;
+    align-content: center;
+
+    h1 {
+        font-size: 35pt;
+        font-family: 'Jersey 10';
+        color: #ff910a;
+    }
+
+    h2 {
+        font-size: 22pt;
+        font-family: 'Jersey 10';
+        color: #ebebeb;
+    }
+
+    p {
+        font-size: larger;
+        width: 75%;
+        text-align: center;
+    }
+}
+
+#RG_Images {
+    grid-area: RG_Images;
+
+    img {
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+}
